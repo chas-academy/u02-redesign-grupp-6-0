@@ -1,1 +1,34 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4F413E;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+img {
+  height: 110px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+li {
+  margin-right: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Istok Web", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+li:hover {
+  color: #AE9041;
+}/*# sourceMappingURL=style.css.map */
