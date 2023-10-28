@@ -84,3 +84,36 @@ li:hover {
         }
     }
 }
+
+.ourStory {
+    background: url(assets/Our\ story.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.6);
+    height: 878px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section {
+        background: url(assets/marble.jpg);
+        max-width: 600px;
+        border: 25px solid #4F413E;
+        padding: 50px 40px 50px 40px;
+
+
+        h2 {
+            font-size: 96px;
+            font-weight: 400;
+            font-family: 'Italianno', cursive;
+            text-align: center;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: 'Inria Serif', serif;
+            text-shadow: 1px 1px rgb(65, 65, 65);
+            letter-spacing: 4.50px;
+        }
+    }
+}
