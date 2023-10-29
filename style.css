@@ -18,14 +18,14 @@ nav {
   background-color: #4F413E;
   padding-bottom: 10px;
   padding-top: 10px;
+  position: fixed;
+  width: 100%;
 }
-
-img {
+nav img {
   height: 110px;
   cursor: pointer;
 }
-
-ul {
+nav ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -39,6 +39,10 @@ li {
   font-family: "Istok Web", sans-serif;
   cursor: pointer;
   transition: 0.3s ease;
+}
+li a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 li:hover {
@@ -83,7 +87,7 @@ li:hover {
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.6);
-  height: 878px;
+  height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,4 +109,72 @@ li:hover {
   font-family: "Inria Serif", serif;
   text-shadow: 1px 1px rgb(65, 65, 65);
   letter-spacing: 4.5px;
+}
+
+.cuisine {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.cuisine section img {
+  width: 375px;
+  height: 368px;
+  margin: 25px;
+}
+.cuisine section h2 {
+  font-size: 96px;
+  font-family: "Italianno", cursive;
+  color: #4F413E;
+  margin-left: 80px;
+}
+.cuisine section h3 {
+  font-size: 80px;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  color: #4F413E;
+  max-width: 730px;
+}
+.cuisine .cuisineText {
+  display: flex;
+}
+.cuisine .cuisineText div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #726765;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+footer img {
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer a {
+  color: inherit;
+  text-decoration: inherit;
+}
+footer .shortcut {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 20px;
+}
+footer .shortcut:hover {
+  color: #AE9041;
 }/*# sourceMappingURL=style.css.map */
