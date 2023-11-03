@@ -1,0 +1,341 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+body {
+  
+}
+*/
+/*Conatiner_a starts*/
+.container_a { 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+nav {
+  top: 0;
+  display:flex;
+  justify-content: space-around;
+  background-color: #4F413E;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  position: absolute;
+  width: 100%;
+  height: 159px;
+  overflow: hidden;
+}
+.royal {
+  width: 250px;
+  height: 105px;
+  left: 61px;
+  top: 30px;
+  position: absolute;
+  color: white;
+  font-size: 96px;
+  font-family: Italianno;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: block;
+}
+.nav_img {
+  width: 65px;
+  height: 55px;
+  left: 5px;
+  top: 46.58px;
+  position: absolute;
+  transform: rotate(-35.32deg);
+  transform-origin: 0 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url("../Assets/🦆\ icon\ _crown_.svg");
+}
+.catering{ 
+  width: 162px;
+  height: 56px;
+  left: 205px;
+  top: 110px;
+  position: absolute;
+  color: #AE9041;
+  font-size: 36px;
+  font-family: Istok Web;
+  font-weight: 400;
+  word-wrap: break-word;
+  display: block;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items:center;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  margin-left: 50%;
+}
+li {
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Istok Web", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+ 
+}
+li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+li:hover {
+  color: #AE9041;
+}
+.banner{ 
+  margin-top: 160px;
+  background-image: linear-gradient(rgba(9, 9, 9, 0.5), rgba(0,0,0,0.5)), url("../Assets/kontakt_banner.jpeg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:#AE9041;;
+  text-align: center;
+  max-width: 100%;
+  padding: 99px;
+  
+}
+.ban_img{
+
+}
+/*Banner text contact*/
+.banner_text{ 
+color: #AE9041;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Italianno;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 5.76px;
+}
+/*Banner text send us message*/
+.banner_text1{ 
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inria Serif;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* Contact form styles starts */
+.contact-form {
+  padding: 40px 0;
+  margin: 0 10px;
+}
+.form-container {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.Question{
+color: #F5C854;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Italianno;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.5px;
+}
+.contact_us{
+  color: #000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inria Serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.phone_n{ 
+  color: rgba(79, 65, 62, 0.80);
+  font-family: Inria Serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-container label {
+  display:block;
+  font-weight: bold;
+}
+.form-container input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+.submit-button {
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.submit-button:hover{ 
+  color: #F5C854;
+}
+/* Contact form styles ends */
+/* Frame banner starts*/
+.frame_fr{ 
+  background-image: linear-gradient(rgba(197, 197, 197, 0.5), rgba(197,197,197,0.5)), url("../Assets/kontakt_frame.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+/* Frame banner ends*/
+/* Contact info styles starts*/
+.contact-info {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.visit{
+  color: #F5C854;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Italianno;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.5px;
+}
+.our_location{
+  color: rgba(0, 0, 0, 0.80);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inria Serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contact-info h2 {
+  color: rgba(79, 65, 62, 0.80);
+  font-family: Inria Serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.right_s{
+  float: right;
+} 
+.left_s{
+  float: left;
+}
+.h_line{ 
+  padding: 1px;
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  color: gold;
+} 
+/* Contact info styles end*/
+/*Footer style starts*/
+footer {
+  background-color: #726765;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer_img {
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.royal_footer {
+
+}
+.catering_footer{ 
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+footer a {
+  color: inherit;
+  text-decoration: inherit;
+}
+footer .shortcut {
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 20px;
+}
+footer .shortcut:hover {
+  color: #AE9041;
+}
+/*Footer style end*/
+
+/* Media queries for responsiveness and media for a small device*/
+@media only screen and (max-width: 768px) {
+		.container_a {
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+  }
+  nav{
+    position: relative;
+  }
+  .banner {
+    margin-top: auto;
+ }
+ .royal{
+ font-size: xxx-large;
+}
+.catering{
+left: 8rem;
+top: 4.8rem;
+}
+.nav_img{
+    left: 0.1rem;
+    top: 1.8rem;
+}
+nav ul {
+margin-top: auto;
+margin-bottom: initial;
+padding: 1px 1px;
+margin-left: 10rem;
+}
+.phone_n{
+font-size: large;
+}
+}
