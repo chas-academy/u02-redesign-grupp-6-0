@@ -3,38 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Catering</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="assets/royal favicon.ico">
     <script src="https://kit.fontawesome.com/3238d3e083.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-        <a href="/index.html">
-            <img src="assets/Royal Catering logo.PNG" alt="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="/index.html">Startsida</a>
-            </li>
-            <li>Medlemslista</li>
-            <li>Kontakt</li>
-            <li>Smullbox</li>
-            <li>Priser</li>
-        </ul>
-    </nav>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Menu -->
+        <nav>
+            <a href="#">
+                <img src="assets/Royal Catering logo.PNG" alt="logo">
+            </a>
+            <label for="toggler" class="menu-toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" id="toggler">
+
+            <div class="menu">
+                <ul class="list" id="list">
+                    <li>
+                        <a href="#">Startsida</a>
+                    </li>
+                    <li><a href="#">Nyheter</a></li>
+                    <li><a href="#">Medlemslista</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Smullbox</a></li>
+                    <li><a href="#">Priser</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <article class="discover" id="discover">
         <section>
             <h2>Discover</h2>
             <h3>ROYAL CATERING</h3>
-            <i class="fa-solid fa-chevron-down fa-6x discover-arrow"></i>
+            <a href="#ourStory">
+                <i class="fa-solid fa-chevron-down fa-6x discover-arrow"></i>
+            </a>
         </section>
     </article>
 
-    <article class="ourStory">
+    <article class="ourStory" id="ourStory">
         <section>
             <h2>Our Story</h2>
             <p>Welcome. This is Royal plate. Elegant &amp; sophisticated restaurant template. Royal plate offers
@@ -60,6 +74,19 @@
             </section>
         </div>
     </article>
+    <article class="cuisine-mobile">
+        <section class="first">
+            <img src="assets/pancakes-mobile.jpg" alt="Pancakes">
+            <img src="assets/salmon-mobil.jpg" alt="Salmon">
+            <h2>Exquisite cuisine</h2>
+        </section>
+
+        <section class="second">
+            <img src="assets/feast-mobile.png" alt="Feast">
+            <img src="assets/table-mobile.jpg" alt="Table">
+        </section>
+
+    </article>
     <footer>
         <section>
             <i class="fa-brands fa-facebook fa-3x shortcut"></i>
@@ -74,6 +101,7 @@
             <li>
                 <a href="/index.html">Startsida</a>
             </li>
+            <li>Nyheter</li>
             <li>Medlemslista</li>
             <li>Kontakt</li>
             <li>Smullbox</li>

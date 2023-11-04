@@ -7,48 +7,6 @@
   box-sizing: border-box;
 }
 
-/* html,
-body {
-    height: 100%;
-} */
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #4F413E;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  position: fixed;
-  width: 100%;
-}
-nav img {
-  height: 110px;
-  cursor: pointer;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-li {
-  margin-right: 50px;
-  font-size: 25px;
-  font-weight: 400;
-  font-family: "Istok Web", sans-serif;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-li a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-li:hover {
-  color: #AE9041;
-}
-
 .discover {
   background: url(assets/discover\ image.png);
   background-size: cover;
@@ -147,34 +105,94 @@ li:hover {
   margin-top: 50px;
 }
 
-footer {
-  background-color: #726765;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 10px;
+.cuisine-mobile {
+  display: none;
 }
-footer img {
-  margin-bottom: 100px;
-  cursor: pointer;
-}
-footer ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  color: white;
-}
-footer a {
-  color: inherit;
-  text-decoration: inherit;
-}
-footer .shortcut {
-  color: white;
-  cursor: pointer;
-  transition: 0.3s ease;
-  margin-left: 20px;
-}
-footer .shortcut:hover {
-  color: #AE9041;
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #908484;
+  }
+  .discover {
+    height: 777px;
+    background: url(assets/discover-mobile.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+  .discover section {
+    margin-left: 0;
+    margin-bottom: 110px;
+  }
+  .discover section h2 {
+    font-size: 40px;
+    margin-left: 0;
+  }
+  .discover section h3 {
+    font-size: 40px;
+  }
+  .discover section .discover-arrow {
+    margin-left: 121px;
+    font-size: 50px;
+    color: #AE9041;
+  }
+  .ourStory {
+    margin-top: 40px;
+    height: 528px;
+    background: url(assets/ourStory-mobile.jpg) no-repeat center;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.1);
+  }
+  .ourStory section {
+    max-width: 276px;
+    height: 378px;
+    border: 15px solid #4F413E;
+    padding: 4px 9px 50px 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourStory section h2 {
+    font-size: 36px;
+  }
+  .ourStory section p {
+    font-size: 14px;
+  }
+  .cuisine {
+    display: none;
+  }
+  .cuisine-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cuisine-mobile .first {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cuisine-mobile .first img {
+    width: 170px;
+    height: 273px;
+    margin: 5px;
+  }
+  .cuisine-mobile .first h2 {
+    font-size: 50px;
+    font-family: "Italianno", cursive;
+    color: white;
+    letter-spacing: 2.5px;
+    text-shadow: 2px 2px rgb(65, 65, 65);
+    position: absolute;
+    bottom: -900px;
+    left: 55px;
+  }
+  .cuisine-mobile .second img {
+    width: 347px;
+    height: 171px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
