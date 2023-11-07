@@ -1,0 +1,28 @@
+.header-img{
+    div{
+        margin: auto;
+        margin-top: 625px;
+        text-align: center;
+        p{
+            color: #FFF;
+        font-family: Italianno;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        }
+        
+        h1{
+            color: #FFF;
+        font-family: Inria Serif;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        }
+    }
+
+    background-image: url(/smullbox/bilder/headerimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 873px;
+    display: flex;
+}

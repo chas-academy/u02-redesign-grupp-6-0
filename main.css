@@ -1,4 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+.header-img {
+  background-image: url(/smullbox/bilder/headerimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 873px;
+  display: flex;
+}
+.header-img div {
+  margin: auto;
+  margin-top: 625px;
+  text-align: center;
+}
+.header-img div p {
+  color: #FFF;
+  font-family: Italianno;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header-img div h1 {
+  color: #FFF;
+  font-family: Inria Serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+}
+
 * {
   margin: 0;
   padding: 0;
