@@ -14,7 +14,7 @@
   background-image: url(/assets/medlemlista.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 873px;
+  height: 1100px;
   display: flex;
   align-items: end;
 }
@@ -23,14 +23,100 @@
   text-align: center;
   color: goldenrod;
   font-family: "Italianno", cursive;
-  font-size: 4rem;
+  font-size: 6.5rem;
+  position: absolute;
+  top: 92%;
+  width: 90%;
 }
 
 .container h1 {
-  font-size: 4, 5rem;
+  font-size: 6rem;
+  font-family: "Inria Serif", serif;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  width: 100%;
+  color: white;
+}
+
+.team h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 300px;
+  /*Members*/
+}
+
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+.member-box {
+  margin: 100px;
+  /*display: block;
+  justify-content: center;
+  flex-wrap: wrap;*/
+  width: 331px;
+  text-align: center;
   font-family: "Inria Serif", serif;
 }
 
+.member-box.p {
+  color: black;
+}
+
+/*Mobil layout*/
+@media only screen and (max-width: 400px) {
+  main {
+    background-color: #908484;
+  }
+  /*.bild {
+      height: 1000px;
+      background: url(/assets/medlemlista.png);
+      width: 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+    }
+    */
+  .container h2 {
+    width: 146px;
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    position: absolute;
+    top: 115%;
+    width: 95%;
+    color: white;
+  }
+  .container h1 {
+    width: 148px;
+    font-size: 2rem;
+    font-family: "Inria Serif", serif;
+    position: absolute;
+    text-align: center;
+    top: 120%;
+    width: 100%;
+    color: white;
+  }
+  .team h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 300px;
+  }
+  .member-box {
+    margin: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: "Inria Serif", serif;
+  }
+}
+/*Mobil layout*/
 /*-----medlemlista*/
 * {
   margin: 0;
