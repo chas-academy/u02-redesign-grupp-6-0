@@ -49,12 +49,12 @@
     margin-bottom: 5vw;
 h2{
     margin: 10px;
-    color: #4F413E;
+    color: #4f413ebf;
 }
 
 h3{
     margin: 10px;
-    color: #4F413E;
+    color: #4f413ebf;
 }
     hr{
         width: 75%;
@@ -77,11 +77,6 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
 
-    img{
-        width: 25%;
-        height: 45%;
-    }
-
   }
 
   .smullbox-img-content2 div{
@@ -93,11 +88,28 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
 
-    img{
-        width: 25%;
-        height: 45%;
-    }
+}
+
+ img:hover{
+    box-shadow: #0a0908;
+    transform: scale(1.2);
+    box-shadow: 20px 30px 16px #3e3b38;  
+    filter: brightness(1);
+    object-fit: cover;
+    z-index: 2;
+   }
+
+   img{
+    width: 25%;
+    height: 45%;
+    transition: opacity .3s;
+    filter: brightness(85%);
+    z-index: 1;
 
 }
+}
+
+@media screen and  {
+    
 }
 // End of Smullbox

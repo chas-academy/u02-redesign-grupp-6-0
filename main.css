@@ -400,11 +400,11 @@
 }
 .smullbox-content h2 {
   margin: 10px;
-  color: #4F413E;
+  color: rgba(79, 65, 62, 0.7490196078);
 }
 .smullbox-content h3 {
   margin: 10px;
-  color: #4F413E;
+  color: rgba(79, 65, 62, 0.7490196078);
 }
 .smullbox-content hr {
   width: 75%;
@@ -424,10 +424,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.smullbox-content .smullbox-img-content1 div img {
-  width: 25%;
-  height: 45%;
-}
 .smullbox-content .smullbox-img-content2 div {
   display: flex;
   justify-content: center;
@@ -437,9 +433,21 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.smullbox-content .smullbox-img-content2 div img {
+.smullbox-content img:hover {
+  box-shadow: #0a0908;
+  transform: scale(1.2);
+  box-shadow: 20px 30px 16px #3e3b38;
+  filter: brightness(1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+}
+.smullbox-content img {
   width: 25%;
   height: 45%;
+  transition: opacity 0.3s;
+  filter: brightness(85%);
+  z-index: 1;
 }
 
 * {
