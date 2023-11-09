@@ -352,35 +352,68 @@
   }
 }
 /* end of index */
+.smullbox-body {
+  overflow-x: hidden;
+  text-align: center;
+}
+.smullbox-body h2 {
+  font-size: 3vw;
+}
+.smullbox-body h3 {
+  font-size: 3vw;
+}
+
 .header-img {
   background-image: url(/smullbox/bilder/headerimg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 873px;
+  height: 700px;
   display: flex;
+}
+.header-img p {
+  margin-bottom: auto;
 }
 .header-img div {
   margin: auto;
-  margin-top: 625px;
+  padding: auto;
+  margin-top: 425px;
   text-align: center;
 }
 .header-img div p {
   color: #FFF;
   font-family: Italianno;
-  font-size: 96px;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 400;
 }
 .header-img div h1 {
   color: #FFF;
   font-family: Inria Serif;
-  font-size: 96px;
+  font-size: 9vw;
   font-style: normal;
   font-weight: 700;
 }
 
 .smullbox-content {
-  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.smullbox-content h2 {
+  margin: 10px;
+  color: #4F413E;
+}
+.smullbox-content h3 {
+  margin: 10px;
+  color: #4F413E;
+}
+.smullbox-content hr {
+  width: 75%;
+  margin: auto;
+  background-color: #4F413E;
+}
+.smullbox-content .smullbox2 {
+  width: 8%;
+  margin: auto;
 }
 .smullbox-content .smullbox-img-content1 div {
   display: flex;
@@ -389,6 +422,11 @@
   flex-direction: row;
   gap: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.smullbox-content .smullbox-img-content1 div img {
+  width: 25%;
+  height: 45%;
 }
 .smullbox-content .smullbox-img-content2 div {
   display: flex;
@@ -397,6 +435,11 @@
   flex-direction: row;
   gap: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.smullbox-content .smullbox-img-content2 div img {
+  width: 25%;
+  height: 45%;
 }
 
 * {
