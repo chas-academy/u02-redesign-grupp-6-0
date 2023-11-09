@@ -455,6 +455,12 @@
 }
 
 @media screen and (max-width: 390px) {
+  .header-img div p {
+    font-size: 40px;
+  }
+  .header-img div h1 {
+    font-size: 55px;
+  }
   .smullbox-img-content2, .smullbox-img-content1 {
     display: none;
   }
@@ -463,11 +469,11 @@
   }
   .mobile-container h2 {
     margin: 10px;
-    color: #4f413e;
+    color: #ffffff;
     font-size: 8vw;
   }
   .mobile-container hr {
-    border-color: #f6f1ef;
+    border-color: #ffffff;
   }
   .mobile-container div img {
     width: 80%;

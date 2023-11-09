@@ -1,4 +1,4 @@
-// Start of Smullbox
+// -------- Start of Smullbox --------
 .smullbox-body{
     overflow-x: hidden;
     text-align: center;
@@ -114,7 +114,20 @@ h3{
 }
 }
 
+// ------- Mobile responsive --------
 @media screen and (max-width: 390px) {
+
+    .header-img {
+
+        div{
+             p{
+            font-size: 40px;  
+        }
+        h1{
+            font-size: 55px;
+        }
+        }
+    }
 
 
     .smullbox-img-content2, .smullbox-img-content1 {
@@ -126,12 +139,12 @@ h3{
 
         h2 {
             margin: 10px;
-            color: #4f413e;
+            color: #ffffff;
             font-size: 8vw;
         }
 
         hr{
-            border-color: #f6f1ef;
+            border-color: #ffffff;
         }
 
         div img{
@@ -148,4 +161,4 @@ h3{
     }
 
 }
-// End of Smullbox
+// --------- End of Smullbox --------
