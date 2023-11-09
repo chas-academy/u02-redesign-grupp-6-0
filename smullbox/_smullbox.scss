@@ -10,6 +10,11 @@
         font-size: 3vw;
     }
 }
+
+.mobile-container{
+    display: none;
+}
+
 .header-img{
     p{
         margin-bottom: auto;
@@ -109,7 +114,15 @@ h3{
 }
 }
 
-@media screen and  {
-    
+@media screen and (max-width: 390px) {
+  
+    .smullbox-img-content2, .smullbox-img-content1 {
+       display: none;
+    }
+
+    .mobile-container{
+        display: block;
+    }
+
 }
 // End of Smullbox

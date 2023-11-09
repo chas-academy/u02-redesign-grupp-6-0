@@ -363,6 +363,10 @@
   font-size: 3vw;
 }
 
+.mobile-container {
+  display: none;
+}
+
 .header-img {
   background-image: url(/smullbox/bilder/headerimg.png);
   background-size: cover;
@@ -450,6 +454,14 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 390px) {
+  .smullbox-img-content2, .smullbox-img-content1 {
+    display: none;
+  }
+  .mobile-container {
+    display: block;
+  }
+}
 * {
   margin: 0;
   padding: 0;
