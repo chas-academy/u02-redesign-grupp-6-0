@@ -124,12 +124,21 @@ h3{
     .mobile-container{
         display: block;
 
+        h2 {
+            margin: 10px;
+            color: #4f413e;
+            font-size: 8vw;
+        }
+
+        hr{
+            border-color: #f6f1ef;
+        }
+
         div img{
             width: 80%;
             margin: 10px;
             box-shadow: 20px 10px 6px #3e3b3838; 
             filter: brightness(1); 
-
         }
 
         img:hover{
