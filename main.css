@@ -398,14 +398,6 @@
   gap: 20px;
   margin-top: 20px;
 }
-.smullbox-content .smullbox-img-content2 div hr {
-  width: 1300px;
-  height: 2px;
-}
-.smullbox-content .smullbox-img-content2 div hr .smullbox2 {
-  width: 100px;
-  height: 2px;
-}
 
 * {
   margin: 0;
