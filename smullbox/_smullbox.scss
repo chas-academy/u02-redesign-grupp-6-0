@@ -115,13 +115,27 @@ h3{
 }
 
 @media screen and (max-width: 390px) {
-  
+
+
     .smullbox-img-content2, .smullbox-img-content1 {
        display: none;
     }
 
     .mobile-container{
         display: block;
+
+        div img{
+            width: 80%;
+            margin: 10px;
+            box-shadow: 20px 10px 6px #3e3b3838; 
+            filter: brightness(1); 
+
+        }
+
+        img:hover{
+            transform: scale(1);
+            box-shadow: 20px 10px 6px #3e3b3838; 
+        }
     }
 
 }

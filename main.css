@@ -461,6 +461,16 @@
   .mobile-container {
     display: block;
   }
+  .mobile-container div img {
+    width: 80%;
+    margin: 10px;
+    box-shadow: 20px 10px 6px rgba(62, 59, 56, 0.2196078431);
+    filter: brightness(1);
+  }
+  .mobile-container img:hover {
+    transform: scale(1);
+    box-shadow: 20px 10px 6px rgba(62, 59, 56, 0.2196078431);
+  }
 }
 * {
   margin: 0;
