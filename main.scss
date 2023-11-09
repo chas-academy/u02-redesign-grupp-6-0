@@ -1,4 +1,8 @@
+@use './nyheter/nyheter';
+@use 'index';
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap');
 @import './smullbox/smullbox';
 
 * {
@@ -21,6 +25,7 @@ nav {
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 100;
 
     img {
         height: 110px;
@@ -120,8 +125,11 @@ footer {
     nav {
         width: 390px;
         padding: 0;
+        z-index: 100;
 
         a {
+            margin-right: 0 !important;
+
             img {
                 height: 70px;
             }
@@ -167,6 +175,12 @@ footer {
             margin-right: 10px;
             padding: 5px;
 
+        }
+
+        .shortcut {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 25px;
         }
     }
 
