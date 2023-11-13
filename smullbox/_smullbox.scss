@@ -120,9 +120,10 @@ div {
 @media screen and (max-width: 390px) {
 
     .header-img {
+        height: 100vh;
 
         div{
-            padding-top: 120px;
+            padding-top: 30vh;
           
              p{
             font-size: 40px; 
