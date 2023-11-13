@@ -25,20 +25,20 @@
         padding: auto;
         margin-bottom: 10px;
         text-align: center;
+        
         p{
-            color: #FFF;
+        color: #fff;
         font-family: Italianno;
         font-size: 5vw;
-        font-style: normal;
-        font-weight: 400;
+        text-shadow: 2px 2px #2a2929;
         }
         
         h1{
             color: #FFF;
-        font-family: Inria Serif;
+            font-family: 'Inria Serif', serif;
         font-size: 9vw;
-        font-style: normal;
-        font-weight: 700;
+        text-shadow: 2px 2px #232121;
+
         }
     }
 
@@ -120,14 +120,12 @@ div {
 @media screen and (max-width: 390px) {
 
     .header-img {
-        height: 100vh;
 
         div{
-            padding-top: 30vh;
+            padding-bottom: 5vh;
           
              p{
             font-size: 40px; 
- 
         }
         h1{
             font-size: 40px;
@@ -161,10 +159,6 @@ div {
             filter: brightness(1); 
         }
 
-        img:hover{
-            transform: scale(1);
-            box-shadow: 20px 10px 6px #3e3b3838; 
-        }
     }
 
 }

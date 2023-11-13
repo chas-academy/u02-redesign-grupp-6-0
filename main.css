@@ -384,18 +384,16 @@
   text-align: center;
 }
 .header-img div p {
-  color: #FFF;
+  color: #fff;
   font-family: Italianno;
   font-size: 5vw;
-  font-style: normal;
-  font-weight: 400;
+  text-shadow: 2px 2px #2a2929;
 }
 .header-img div h1 {
   color: #FFF;
-  font-family: Inria Serif;
+  font-family: "Inria Serif", serif;
   font-size: 9vw;
-  font-style: normal;
-  font-weight: 700;
+  text-shadow: 2px 2px #232121;
 }
 
 .smullbox-content {
@@ -454,11 +452,8 @@
 }
 
 @media screen and (max-width: 390px) {
-  .header-img {
-    height: 100vh;
-  }
   .header-img div {
-    padding-top: 30vh;
+    padding-bottom: 5vh;
   }
   .header-img div p {
     font-size: 40px;
@@ -485,10 +480,6 @@
     margin: 10px;
     box-shadow: 20px 10px 6px rgba(62, 59, 56, 0.2196078431);
     filter: brightness(1);
-  }
-  .mobile-container img:hover {
-    transform: scale(1);
-    box-shadow: 20px 10px 6px rgba(62, 59, 56, 0.2196078431);
   }
 }
 * {
