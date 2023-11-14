@@ -27,6 +27,7 @@
   position: absolute;
   top: 92%;
   width: 90%;
+  text-shadow: 2px 2px 2px black;
 }
 
 .container h1 {
@@ -37,12 +38,13 @@
   top: 100%;
   width: 100%;
   color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 .team h1 {
   font-size: 3rem;
   text-align: center;
-  margin-top: 300px;
+  margin-top: 100px;
   /*Members*/
 }
 
@@ -75,15 +77,6 @@
   main {
     background-color: #908484;
   }
-  /*.bild {
-      height: 1000px;
-      background: url(/assets/medlemlista.png);
-      width: 100%;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-    }
-    */
   .container h2 {
     width: 146px;
     text-align: center;
@@ -107,11 +100,11 @@
   .team h1 {
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 300px;
+    margin-bottom: 100px;
   }
   .member-box {
     margin: 50px;
-    width: 100%;
+    width: auto;
     text-align: center;
     font-family: "Inria Serif", serif;
   }
@@ -132,6 +125,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  z-index: 100;
   align-items: center;
   background-color: #4F413E;
   padding: 10px;
