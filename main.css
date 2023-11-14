@@ -445,7 +445,7 @@
   z-index: 2;
 }
 .smullbox-content div img {
-  width: 30%;
+  width: 25%;
   filter: brightness(85%);
   z-index: 1;
   transition: transform 3s ease;
