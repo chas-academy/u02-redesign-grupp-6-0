@@ -352,7 +352,7 @@
   }
 }
 /* end of index */
-/*----------Start of Smullbox--------- */
+/* Start of Smullbox */
 .smullbox-body {
   overflow-x: hidden;
   text-align: center;
@@ -363,7 +363,7 @@
 }
 
 .header-img {
-  background-image: url(/smullbox/bilder/headerimg.png);
+  background-image: url(/smullbox/bilder/headerimg.WebP);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -425,7 +425,7 @@
   z-index: 10;
 }
 
-/*------- Mobile responsive --------*/
+/* Mobile responsive */
 @media screen and (max-width: 390px) {
   .header-img div {
     padding-bottom: 5vh;
@@ -458,7 +458,7 @@
     filter: brightness(1);
   }
 }
-/*----------End of Smullbox--------- */
+/* End of Smullbox  */
 * {
   margin: 0;
   padding: 0;
