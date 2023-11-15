@@ -14,6 +14,8 @@
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
+  color: #fff;
+  text-shadow: 3px 7px #232121;
 
   div {
     margin: auto;
@@ -21,18 +23,14 @@
     text-align: center;
 
     p {
-      color: #fff;
       font-family: Italianno;
       font-size: 5vw;
-      text-shadow: 2px 2px #2a2929;
       margin-bottom: -20px;
     }
 
     h1 {
-      color: #fff;
       font-family: "Inria Serif", serif;
       font-size: 9vw;
-      text-shadow: 2px 2px #232121;
     }
   }
 }
