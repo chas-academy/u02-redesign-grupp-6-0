@@ -410,10 +410,7 @@
   align-items: center;
   flex-direction: row;
   gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 65px;
-  margin-right: 65px;
+  margin: 20px 65px 20px 65px;
 }
 .smullbox-content .smullbox-img-content1 div img, .smullbox-content .smullbox-img-content2 div img {
   width: 23%;
