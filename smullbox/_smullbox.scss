@@ -76,10 +76,9 @@
   }
 
   img:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     box-shadow: 20px 30px 16px #3e3b38;
     filter: brightness(1);
-    object-fit: cover;
     z-index: 2;
   }
 
