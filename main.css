@@ -352,6 +352,7 @@
   }
 }
 /* end of index */
+/*----------Start of Smullbox--------- */
 .smullbox-body {
   overflow-x: hidden;
   text-align: center;
@@ -451,6 +452,7 @@
   transition: transform 3s ease;
 }
 
+/*------- Mobile responsive --------*/
 @media screen and (max-width: 390px) {
   .header-img div {
     padding-bottom: 5vh;
@@ -482,6 +484,7 @@
     filter: brightness(1);
   }
 }
+/*----------End of Smullbox--------- */
 * {
   margin: 0;
   padding: 0;
