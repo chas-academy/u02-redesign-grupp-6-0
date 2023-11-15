@@ -4,40 +4,52 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title> Contact_Us </title>
-    <link rel="stylesheet"  type="text/css" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+    <link rel="stylesheet" href="/main.css">
+
+    
+    <!--<link rel="stylesheet" href="main.css">-->
     
     <script src="https://kit.fontawesome.com/b82c71c3b1.js" crossorigin="anonymous"> </script>  
   </head>
 
-  <body>
+<body>
 
     <!--Navbar och logo section starts -->
-	<div class="container_a">
-      <nav> 
+    <header class="header">
+        <!-- Menu -->
+        <nav>
+            <a href="#">
+                <img src="/assets/royalCateringLogo.PNG" alt="logo">   <!--  /assets/Royal Catering logo.PNG -->
+            </a>
+            <label for="toggler" class="menu-toggle"><i class="fa fa-bars"></i></label>
+            <input type="checkbox" id="toggler">
 
-		<h2 class="royal"> Royal </h2>
-		<a href="" class="nav_img"> <img src="" alt=""> </a>
-        <h2 class="catering"> Catering </h2>
-
-        <ul>
-            <li> <a href="/index.html"> Startsida </a></li>
-			<li> <a href="">  Medlemslista </a> </li>
-			<li class="active"><a href="/kontakt.html"> Kontakt </a> </li>
-			<li> <a href=""> Smullbox </a> </li>
-            <li> <a href=""> Priser </a> </li>
-            <li> <a href=""> Nyheter </a> </li>
-			
-        </ul>
-    </nav>
+            <div class="menu">
+                <ul class="list" id="list">
+                    <li> <a href="/index.html"> Startsida </a> </li>
+                    <li> <a href="/nyheter/nyhter.html"> Nyheter </a> </li>
+                    <li> <a href="/medlemslista/medlemlista.html"> Medlemslista </a> </li>
+                    <li> <a href="/kontakt/kontakt.html"> Kontakt </a> </li>
+                    <li> <a href="/smullbox/smullbox.html"> Smullbox </a> </li>
+                    <li> <a href="/priser/priser.html"> Priser </a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!--Navbar och logo section ends -->
+
+
+<div class="gressini">
 
     <!-- banner section starts-->
 	<section class="banner">
-
-		<img src= ""   alt="" >
+            <!-- ../assets/kontakt_banner.jpeg -->
+		<img src= "/assets/kontakt_banner.jpeg" class="ban_img"  alt="wbwb" height="300" width="100%" > 
 		<h1 class="banner_text" style="font-size: 50px;" > Contact us </h1>
 		<p class="banner_text1"> SEND US A MESSAGE </p>
 
@@ -76,7 +88,8 @@
 
     <!--div section frame start-->
     <div class="frame_fr">
-      <img src= ""   alt="">   <!-- attached in scss and css url directly-->
+        <!--  ../assets/kontakt_frame.jpeg -->
+      <img src= "/assets/kontakt_frame.jpeg"   alt="">         <!-- attached in scss and css url directly-->
     </div>
 	<!--div section frame end-->
 
@@ -108,28 +121,26 @@
 	 <!-- Company contact info  end-->
     
     <!--footer section start-->
-	 <footer>
+    <footer>
         <section>
             <i class="fa-brands fa-facebook fa-3x shortcut"></i>
             <i class="fa-brands fa-instagram fa-3x shortcut"></i>
             <i class="fa-regular fa-envelope fa-3x shortcut"></i>
             <i class="fa-brands fa-facebook-messenger fa-3x shortcut"></i>
         </section>
-		<h5 class="royal_foote"> Royal </h5>
-        <a href="">
-            <img src="" class="footer_img" alt="">
+        <a href="/index.html">
+            <img src="/assets/royalSecondLogo.PNG" alt="Logo">               <!-- /assets/royal second logo.PNG" -->
         </a>
-		<h5 class="catering_footer"> Catering </h5>
-
         <ul>
-            <li> <a href="/index.html"> Startsida </a></li>
-            <li> <a href="">  Medlemslista </a> </li>
-            <li class="active"><a href="/kontakt.html"> Kontakt </a> </li>
-            <li> <a href=""> Smullbox </a> </li>
-            <li> <a href=""> Priser </a> </li>
-			<li> <a href=""> Nyheter </a> </li>
+            <li> <a href="/index.html"> Startsida </a> </li>
+            <li> Nyheter </li>
+            <li> Medlemslista </li>
+            <li> Kontakt </li>
+            <li> Smullbox </li>
+            <li> Priser </li>
         </ul>
     </footer>
+    <!--footer section ends here-->
 
 </div>
 
