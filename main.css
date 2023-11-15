@@ -357,12 +357,6 @@
   overflow-x: hidden;
   text-align: center;
 }
-.smullbox-body h2 {
-  font-size: 3vw;
-}
-.smullbox-body h3 {
-  font-size: 3vw;
-}
 
 .mobile-container {
   display: none;
@@ -390,7 +384,7 @@
   text-shadow: 2px 2px #2a2929;
 }
 .header-img div h1 {
-  color: #FFF;
+  color: #fff;
   font-family: "Inria Serif", serif;
   font-size: 9vw;
   text-shadow: 2px 2px #232121;
@@ -399,19 +393,19 @@
 .smullbox-content {
   margin-top: 5vw;
   margin-bottom: 5vw;
+  font-size: 3vw;
+  color: rgba(79, 65, 62, 0.7490196078);
 }
 .smullbox-content h2 {
   margin: 10px;
-  color: rgba(79, 65, 62, 0.7490196078);
 }
 .smullbox-content h3 {
   margin: 10px;
-  color: rgba(79, 65, 62, 0.7490196078);
 }
 .smullbox-content hr {
   width: 75%;
   margin: auto;
-  background-color: #4F413E;
+  background-color: #4f413e;
 }
 .smullbox-content .smullbox2 {
   width: 8%;
@@ -462,7 +456,8 @@
   .header-img div h1 {
     font-size: 40px;
   }
-  .smullbox-img-content2, .smullbox-img-content1 {
+  .smullbox-img-content2,
+  .smullbox-img-content1 {
     display: none;
   }
   .mobile-container {
