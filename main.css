@@ -396,11 +396,8 @@
   font-size: 3vw;
   color: rgba(79, 65, 62, 0.7490196078);
 }
-.smullbox-content h2 {
-  margin: 10px;
-}
-.smullbox-content h3 {
-  margin: 10px;
+.smullbox-content h2, .smullbox-content h3 {
+  margin: 20px;
 }
 .smullbox-content hr {
   width: 75%;
