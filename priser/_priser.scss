@@ -1,261 +1,259 @@
-@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap');
+@import '/main.scss';
 
-/* priser style starts */
-*,
-*::after,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-min-height: 100vh;
-}
-/* Priser style starts here  */
-/*  Banner image för kontakt starts*/
-.bannerP_img {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("../assets/image/priser_banner.png");
-	margin-top: 7%;
-	height: 500px;
-	width: 100%;
-	padding-bottom: 0px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: inherit;
-	transition: transform .2s;
-	margin: 0 auto;
-	&:hover {
-		transform: scale(1.5);
-	}
-}
-.menuP {
-	color: #AE9041;  
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-size: 46px;
-    font-family:  Italianno;
-	text-align: center;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	letter-spacing: 5.76px;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-}
-.priceL {
-	color:  white;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-	font-family: "Istok Web", sans-serif;
-	font-size: 66px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	text-align: center;
-	position: absolute;
-	top: 55%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.hr1 {
-	width: 100%;
-	height: 2px;
-	background-color: #ffffff;
-}
-.startsT, .mainT, .desertsT {
-	align-items: center;
-	justify-content: space-evenly;
-	margin-left: 45%;
-	color: #4F413E;
-	font-family: "Italianno", cursive;
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 1.6;
-	width: 207px;
-	display: inline;
-}
-.hr2 {
-	margin-left: 48%;
-	margin-right: auto;
-	height: 2px;
-	width: 100px;
-	background-color: "Istok Web", sans-serif;
-}
-.food-menu-container {
-	width: 100%;
-	display: inline-flex;
-}
-.soupsT, .saladsT,
-.lunchT, .dinnerT {
-	color: #4F413E;;
-	width: 207px;
-	height: 35px;
-	text-align: center;
-	font-family: "Italianno", cursive;
-	font-size: 30px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	margin-top: 10px;
-}
-.food-menu-item-left {
-	width: 50%;
-	display: inline-block;
-}
-.food-menu-item-right {
-	width: 50%;
-	float: right;
-	margin-right: 50%;
-}
-.food-menu-item {
-	padding-bottom: 1px;
-}
-.menu_img {
-	margin-left: 1px;
-	margin-top: 5px;
-	width: 100px;
-	height: 100px;
-    border-radius: 100px;
-	transition: transform .2s;
-	margin: 0 auto;
-	&:hover {
-		transform: scale(1.5);
-	}
-}
-.food-description {
-	width: 49vw;
-	height: 18vh;
-	margin-left: 5px;
-}
-.food-title {
-	width: 50%;
-	margin-left: 120px;
-	margin-top: -70px;
-	color: #4F413E;
-	font-family: "Italianno", cursive;
-	font-size: 19px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-.priserP {
-	padding-left: 30px;
-	color: #6AA854;
-	text-align: center;
-	font-family: "Italianno", cursive;
-	font-size: 25px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-}
-.ingriedenser {
-	align-items: center;
-	margin-left: 120px;
-	padding-top: 1px;
-	width: 49%;
-	color: rgba(79, 65, 62, 0.80);
-	font-family: "Italianno", cursive;
-	font-size: 10px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 15px;
-}
+$color_2: #AE9041;
 
-// for small device Iphone-12 pro
-@media screen and (max-width: 400px) {
-  body {  
-   background: rgba(121, 104, 100, 0.8);
+/*  ==================  Priser scss  starts here  =================*/
+* ,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  .food-menu-container {
-    width: 100%;
-    height: auto 0;
-    display: inline;
+  body {
+    min-height: 100vh;
+  }
+  /*  Banner image för priser starts*/
+  .bannerP_img {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("/assets/image/priser_banner.png");
+      margin-top: 7%;
+      height: 500px;
+      width: 100%;
+      padding-bottom: 0px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: inherit;
+      transition: transform .2s;
+      margin: 0 auto;
+      &:hover {
+          transform: scale(1.5);
+      }
   }
   .menuP {
-    font-size: 40px;
-    font-weight: 300;
-    top: 45%;
-    left: 50%;
+      color: #AE9041;  
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 46px;
+      font-family:  Italianno;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 5.76px;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
   }
   .priceL {
-    font-size: 40px;
-    font-weight: 600;
-    top: 55%;
-    left: 42%;
-    transform: translate(-30%, -70%);
+      color: $color_1;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: $font-family_1;
+      font-size: 66px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: center;
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
   .hr1 {
-    background-color: rgba(79, 65, 62, 0.80);
+      width: 100%;
+      height: 2px;
+      background-color: $background-color_1;
   }
-  .startsT, .desertsT {
-    margin-left: 25%;
-    font-weight: 550;
-    line-height: 1.4;
-    display: inline;
-  }
-  .mainT {
-    margin-left: 20%;
+  .startsT, .mainT, .desertsT {
+      align-items: center;
+      justify-content: space-evenly;
+      margin-left: 45%;
+      color: #4F413E;;
+      font-family: $font-family_2;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.6;
+      width: 207px;
+      display: inline;
   }
   .hr2 {
-    margin-left: 40%;
-    background-color: rgba(79, 65, 62, 0.80);
+      margin-left: 48%;
+      margin-right: auto;
+      height: 2px;
+      width: 100px;
+      background-color: $background-color_1;
   }
-.soupsT, .saladsT,
-.lunchT, .dinnerT {
-	font-weight: 550;
-	line-height: 1.2;
-}
-.menu_img {
-	margin-left: 10px;
-	width: 100px;
-	height: 100px;
+  .food-menu-container {
+      width: 100%;
+      display: inline-flex;
+  }
+  .soupsT, .saladsT,
+  .lunchT, .dinnerT {
+      color: #4F413E;;
+      width: 207px;
+      height: 35px;
+      text-align: center;
+      font-family: $font-family_2;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 10px;
+  }
+  .food-menu-item-left {
+      width: 50%;
+      display: inline-block;
+  }
+  .food-menu-item-right {
+      width: 50%;
+      float: right;
+      margin-right: 50%;
+  }
+  .food-menu-item {
+      padding-bottom: 1px;
+  }
+  .menu_img {
+      margin-left: 1px;
+      margin-top: 5px;
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      transition: transform .2s;
+      margin: 0 auto;
+      &:hover {
+          transform: scale(1.5);
+      }
+  }
+  .food-description {
+      width: 49vw;
+      height: 18vh;
+      margin-left: 5px;
+  }
+  .food-title {
+      width: 50%;
+      margin-left: 120px;
+      margin-top: -70px;
+      color: #4F413E;
+      font-family: $font-family_2;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+  }
+  .priserP {
+      padding-left: 30px;
+      color: #6AA854;
+      text-align: center;
+      font-family: $font-family_2;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+  }
+  .ingriedenser {
+      align-items: center;
+      margin-left: 120px;
+      padding-top: 1px;
+      width: 49%;
+      color: rgba(79, 65, 62, 0.80);
+      font-family: $font-family_2;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15px;
+  }
+  // for small device Iphone-12 pro
+@media screen and (max-width: 400px) {
+    body {  
+     background: rgba(121, 104, 100, 0.8);
+    }
+    .food-menu-container {
+      width: 100%;
+      height: auto 0;
+      display: inline;
+    }
+    .menuP {
+      font-size: 40px;
+      font-weight: 300;
+      top: 45%;
+      left: 50%;
+    }
+    .priceL {
+      font-size: 40px;
+      font-weight: 600;
+      top: 55%;
+      left: 42%;
+      transform: translate(-30%, -70%);
+    }
+    .hr1 {
+      background-color: rgba(79, 65, 62, 0.80);
+    }
+    .startsT, .desertsT {
+      margin-left: 25%;
+      font-weight: 550;
+      line-height: 1.4;
+      display: inline;
+    }
+    .mainT {
+      margin-left: 20%;
+    }
+    .hr2 {
+      margin-left: 40%;
+      background-color: rgba(79, 65, 62, 0.80);
+    }
+  .soupsT, .saladsT,
+  .lunchT, .dinnerT {
+      font-weight: 550;
+      line-height: 1.2;
+  }
+  .menu_img {
+      margin-left: 10px;
+      width: 100px;
+      height: 100px;
     border-radius: 100px;
-	transition: transform .2s;
-	margin: 0 auto;
-	&:hover {
-		transform: scale(1.5);
-	}
-}
-.food-description {
-	width: 380px;    
-	margin-left: 5px;
+      transition: transform .2s;
+      margin: 0 auto;
+      &:hover {
+          transform: scale(1.5);
+      }
+  }
+  .food-description {
+      width: 380px;    
+      margin-left: 5px;
     height: 14vh;
-}
-.food-title {
-	width: 70%;
-	font-size: 19px;
-	font-weight: 550;
+  }
+  .food-title {
+      width: 70%;
+      font-size: 19px;
+      font-weight: 550;
     margin-left: 120px;
-	margin-top: -90px;
-}
-span, .chickenB , .nxls,
-.cMasala, .bbq, .clsalad {
-  font-size: 15px;
-}
-.priserP {
-    color: #FFF500;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 550;
-    padding-left: 18px;
+      margin-top: -90px;
   }
-.ingriedenser {
-    align-items: center;
-    width: 60%;
-    font-size: 10px;
-    line-height: 1.0;
+  span, .chickenB , .nxls,
+  .cMasala, .bbq, .clsalad {
+    font-size: 15px;
   }
-/* footer style to display*/
-
-footer {
-  display: inline-flex;
-  width: 390px;  
-}
-
+  .priserP {
+      color: #FFF500;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 550;
+      padding-left: 18px;
+    }
+  .ingriedenser {
+      align-items: center;
+      width: 60%;
+      font-size: 10px;
+      line-height: 1.0;
+    }
+  /* footer style to display*/
  
-}
-/*priser style ends here */
+  footer {
+    display: inline-flex;
+    width: 390px;  
+  }
+  }
+  /*priser style ends here */
+
+/*  ==================   Priser scss ends here    =================*/
