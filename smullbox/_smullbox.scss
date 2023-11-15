@@ -29,7 +29,7 @@
 
     h1 {
       font-family: "Inria Serif", serif;
-      font-size: 9vw;
+      font-size: 7vw;
     }
   }
 }
@@ -37,7 +37,7 @@
 .smullbox-content {
   margin-top: 3.5vw;
   margin-bottom: 5vw;
-  font-size: 3vw;
+  font-size: 2.2vw;
   color: #545351;
 
   h2,
@@ -65,20 +65,24 @@
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+
+    img {
+        width: 23%;
+        filter: brightness(85%);
+        z-index: 1;
+        transition: 3s;
+      }
 
     img:hover {
-        transform: scale(1.3);
+        transform: scale(2.59, 1.4);
         box-shadow: 20px 30px 16px #3737369b;
         filter: brightness(1);
         z-index: 10;
+
       }
     
-      img {
-        width: 25%;
-        filter: brightness(85%);
-        z-index: 1;
-        transition: transform 3s ease ;
-      }
   }
 
 }
