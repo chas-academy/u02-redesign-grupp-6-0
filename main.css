@@ -352,6 +352,136 @@
   }
 }
 /* end of index */
+.smullbox-body {
+  overflow-x: hidden;
+  text-align: center;
+}
+.smullbox-body h2 {
+  font-size: 3vw;
+}
+.smullbox-body h3 {
+  font-size: 3vw;
+}
+
+.mobile-container {
+  display: none;
+}
+
+.header-img {
+  background-image: url(/smullbox/bilder/headerimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+}
+.header-img p {
+  margin-bottom: auto;
+}
+.header-img div {
+  margin: auto;
+  padding: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.header-img div p {
+  color: #fff;
+  font-family: Italianno;
+  font-size: 5vw;
+  text-shadow: 2px 2px #2a2929;
+}
+.header-img div h1 {
+  color: #FFF;
+  font-family: "Inria Serif", serif;
+  font-size: 9vw;
+  text-shadow: 2px 2px #232121;
+}
+
+.smullbox-content {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.smullbox-content h2 {
+  margin: 10px;
+  color: rgba(79, 65, 62, 0.7490196078);
+}
+.smullbox-content h3 {
+  margin: 10px;
+  color: rgba(79, 65, 62, 0.7490196078);
+}
+.smullbox-content hr {
+  width: 75%;
+  margin: auto;
+  background-color: #4F413E;
+}
+.smullbox-content .smullbox2 {
+  width: 8%;
+  margin: auto;
+}
+.smullbox-content .smullbox-img-content1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.smullbox-content .smullbox-img-content2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.smullbox-content img:hover {
+  box-shadow: #0a0908;
+  transform: scale(1.2);
+  box-shadow: 20px 30px 16px #3e3b38;
+  filter: brightness(1);
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+}
+.smullbox-content div img {
+  width: 25%;
+  filter: brightness(85%);
+  z-index: 1;
+  transition: transform 3s ease;
+}
+
+@media screen and (max-width: 390px) {
+  .header-img div {
+    padding-bottom: 5vh;
+  }
+  .header-img div p {
+    font-size: 40px;
+  }
+  .header-img div h1 {
+    font-size: 40px;
+  }
+  .smullbox-img-content2, .smullbox-img-content1 {
+    display: none;
+  }
+  .mobile-container {
+    display: block;
+  }
+  .mobile-container h2 {
+    margin: 10px;
+    color: #ffffff;
+    font-size: 8vw;
+  }
+  .mobile-container hr {
+    border-color: #ffffff;
+  }
+  .mobile-container div img {
+    width: 80%;
+    margin: 10px;
+    box-shadow: 20px 10px 6px rgba(62, 59, 56, 0.2196078431);
+    filter: brightness(1);
+  }
+}
 * {
   margin: 0;
   padding: 0;

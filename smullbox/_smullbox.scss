@@ -1,0 +1,165 @@
+// -------- Start of Smullbox --------
+.smullbox-body{
+    overflow-x: hidden;
+    text-align: center;
+
+    h2{
+        font-size: 3vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+}
+
+.mobile-container{
+    display: none;
+}
+
+.header-img{
+    p{
+        margin-bottom: auto;
+    }
+
+    div {
+        margin: auto;
+        padding: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        
+        p{
+        color: #fff;
+        font-family: Italianno;
+        font-size: 5vw;
+        text-shadow: 2px 2px #2a2929;
+        }
+        
+        h1{
+            color: #FFF;
+            font-family: 'Inria Serif', serif;
+        font-size: 9vw;
+        text-shadow: 2px 2px #232121;
+
+        }
+    }
+
+    background-image: url(/smullbox/bilder/headerimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+}
+
+.smullbox-content{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+h2{
+    margin: 10px;
+    color: #4f413ebf;
+}
+
+h3{
+    margin: 10px;
+    color: #4f413ebf;
+}
+    hr{
+        width: 75%;
+        margin: auto;
+        background-color: #4F413E;
+
+    }
+
+    .smullbox2{
+        width: 8%;
+        margin: auto;
+    }
+
+  .smullbox-img-content1 div{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .smullbox-img-content2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+ img:hover{
+    box-shadow: #0a0908;
+    transform: scale(1.2);
+    box-shadow: 20px 30px 16px #3e3b38;  
+    filter: brightness(1);
+    object-fit: cover;
+    z-index: 2;
+  
+}
+
+div {
+    img{
+        width: 25%;
+        filter: brightness(85%);
+        z-index: 1;
+        transition: transform 3s ease;
+    }
+}
+
+}
+
+// ------- Mobile responsive --------
+@media screen and (max-width: 390px) {
+
+    .header-img {
+
+        div{
+            padding-bottom: 5vh;
+          
+             p{
+            font-size: 40px; 
+        }
+        h1{
+            font-size: 40px;
+
+        }
+        }
+    }
+
+
+    .smullbox-img-content2, .smullbox-img-content1 {
+       display: none;
+    }
+
+    .mobile-container{
+        display: block;
+
+        h2 {
+            margin: 10px;
+            color: #ffffff;
+            font-size: 8vw;
+        }
+
+        hr{
+            border-color: #ffffff;
+        }
+
+        div img{
+            width: 80%;
+            margin: 10px;
+            box-shadow: 20px 10px 6px #3e3b3838; 
+            filter: brightness(1); 
+        }
+
+    }
+
+}
+// --------- End of Smullbox --------
