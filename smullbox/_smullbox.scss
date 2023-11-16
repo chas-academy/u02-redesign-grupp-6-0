@@ -1,4 +1,5 @@
 /* Start of Smullbox */
+/* Start of Smullbox */
 .smullbox-body {
   overflow-x: hidden;
   text-align: center;
@@ -9,6 +10,7 @@
 }
 
 .header-img {
+  background-image: url(/smullbox/bilder/headerimg.WebP);
   background-image: url(/smullbox/bilder/headerimg.WebP);
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,6 +39,8 @@
 .smullbox-content {
   margin-top: 3.5vw;
   margin-bottom: 5vw;
+  font-size: 2.2vw;
+  color: #545351;
   font-size: 2.2vw;
   color: #545351;
 

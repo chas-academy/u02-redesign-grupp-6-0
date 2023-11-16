@@ -364,6 +364,7 @@
 
 .header-img {
   background-image: url(/smullbox/bilder/headerimg.WebP);
+  background-image: url(/smullbox/bilder/headerimg.WebP);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -382,6 +383,7 @@
 }
 .header-img div h1 {
   font-family: "Inria Serif", serif;
+  font-size: 7vw;
   font-size: 7vw;
 }
 
@@ -404,8 +406,7 @@
   width: 8%;
   margin: auto;
 }
-
-.smullbox-img-content1 div, .smullbox-img-content2 div {
+.smullbox-content .smullbox-img-content1 div, .smullbox-content .smullbox-img-content2 div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -413,11 +414,11 @@
   gap: 20px;
   margin: 20px 65px 20px 65px;
 }
-.smullbox-img-content1 div img, .smullbox-img-content2 div img {
+.smullbox-content .smullbox-img-content1 div img, .smullbox-content .smullbox-img-content2 div img {
   width: 23%;
   filter: brightness(85%);
-  z-index: 0;
-  transition: 3s, filter blur(5px);
+  z-index: 1;
+  transition: 3s;
 }
 .smullbox-img-content1 div img:hover, .smullbox-img-content2 div img:hover {
   transform: scale(2.59, 1.4);
