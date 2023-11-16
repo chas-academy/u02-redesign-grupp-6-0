@@ -1,6 +1,8 @@
 @use './nyheter/nyheter';
 @use 'index';
+
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import './medlemslista/medlemlista';
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap');
 @import './smullbox/smullbox';
@@ -23,6 +25,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    z-index: 100;
     align-items: center;
     background-color: #4F413E;
     padding: 10px;
