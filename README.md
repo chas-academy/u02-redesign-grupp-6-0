@@ -45,7 +45,8 @@ Av intervjuerna kunde vi skapa User stories. User stories är korta, beskrivande
 ---
 Utav alla User stories så kunde vi skapa en Persona
 - [User stories](https://miro.com/app/board/uXjVNWqJRPM=/?track=true&utm_source=notification&utm_medium=email&utm_campaign=approve-request&utm_content=go-to-miro)
-- [Persona](https://workspace67795933.xtensio.com/edit/wydf7i2h)
+- [Persona 1](https://workspace67795933.xtensio.com/edit/wydf7i2h)
+- [Persona 2](https://workspace67795933.xtensio.com/edit/xyk7kxqh)
 ---
 
 Slutligen i användarprocessen så designade vi de respektive sidorna med underlag av userstories samt personas.
@@ -91,5 +92,7 @@ Här är våra dokument anteckningar från möten:
 - [Möte ett](https://docs.google.com/document/d/1Ii5O4iHNKbJlBidY8R11sfKJEu95ktdEd6rpZLJS-Rc/edit#heading=h.nrnw03t7conb)
 - [Möte två](https://docs.google.com/document/d/1HLRvN8M7a2Q-akOQSiLCHeMIXw5GPQFWINYcg2Fz_68/edit#heading=h.nrnw03t7conb)
 - [Möte tre](https://docs.google.com/document/d/1fpHG7grNxRZRhMNS04G-JBhBUiMjP2vQVulDOTXVDrQ/edit#heading=h.nrnw03t7conb)
+- [Möte fyra](https://docs.google.com/document/d/11W2PfY8PnTclS-jVXHEAUMJhMxdG4CEt8_fl5xCicKg/edit#heading=h.nrnw03t7conb)
+-[Möte fem](https://docs.google.com/document/d/1dfor2vUBU0UmV_UCuzhn--m57-ZTr4gNdczOBqFtC3g/edit#heading=h.nrnw03t7conb)
 
 <hr>
