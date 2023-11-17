@@ -43,12 +43,12 @@ Av intervjuerna kunde vi skapa User stories. User stories är korta, beskrivande
 
 ---
 Utav alla User stories så kunde vi skapa dessa två Personas
-![Screenshot 2023-10-30 181902](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/144438319/ae032117-58ba-460e-bd08-0a01c526cd62)
 - [User stories](https://miro.com/app/board/uXjVNWqJRPM=/?track=true&utm_source=notification&utm_medium=email&utm_campaign=approve-request&utm_content=go-to-miro) 
-![persona1](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/a05e82e0-af8f-45af-812a-9a23d6ad045d)
+![Screenshot 2023-10-30 181902](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/144438319/ae032117-58ba-460e-bd08-0a01c526cd62)
 - [Persona 1](https://workspace67795933.xtensio.com/edit/wydf7i2h)
-![persona2](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/5b54e89b-a076-4735-9c7f-3c6e3369694c)
+![persona1](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/a05e82e0-af8f-45af-812a-9a23d6ad045d)
 - [Persona 2](https://workspace67795933.xtensio.com/edit/xyk7kxqh)
+![persona2](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/5b54e89b-a076-4735-9c7f-3c6e3369694c)
 ---
 
 Slutligen i användarprocessen så designade vi de respektive sidorna med underlag av userstories samt personas.
