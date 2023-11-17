@@ -39,14 +39,15 @@ Vi har intervjuat 3 personer som fick svara på några antal frågor.
 - [Tredje intervjuen](https://docs.google.com/document/d/1eJp1A3TWhicnWWVaRqJFcnD8Cg21wfDsQpjAAH8uP_Q/edit)
 
 Av intervjuerna kunde vi skapa User stories. User stories är korta, beskrivande berättelser som fokuserar på en specifik funktionalitet eller ett användarens behov i en mjukvaruprojekt. De hjälper till att kommunicera krav och mål på ett enkelt och förståeligt sätt och används ofta i agil utvecklingsmetodik för att förstå och prioritera arbetsuppgifter. En typisk user story innehåller en roll, en handling och en nytta och ser ut som "Som [roll], vill jag [handling] så att [nytta]."
-![Screenshot 2023-10-30 181902](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/144438319/ae032117-58ba-460e-bd08-0a01c526cd62)
-![persona1](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/a05e82e0-af8f-45af-812a-9a23d6ad045d)
-![persona2](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/5b54e89b-a076-4735-9c7f-3c6e3369694c)
+
 
 ---
-Utav alla User stories så kunde vi skapa en Persona
-- [User stories](https://miro.com/app/board/uXjVNWqJRPM=/?track=true&utm_source=notification&utm_medium=email&utm_campaign=approve-request&utm_content=go-to-miro)
+Utav alla User stories så kunde vi skapa dessa två Personas
+![Screenshot 2023-10-30 181902](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/144438319/ae032117-58ba-460e-bd08-0a01c526cd62)
+- [User stories](https://miro.com/app/board/uXjVNWqJRPM=/?track=true&utm_source=notification&utm_medium=email&utm_campaign=approve-request&utm_content=go-to-miro) 
+![persona1](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/a05e82e0-af8f-45af-812a-9a23d6ad045d)
 - [Persona 1](https://workspace67795933.xtensio.com/edit/wydf7i2h)
+![persona2](https://github.com/chas-academy/u02-redesign-grupp-6-0/assets/123011945/5b54e89b-a076-4735-9c7f-3c6e3369694c)
 - [Persona 2](https://workspace67795933.xtensio.com/edit/xyk7kxqh)
 ---
 
