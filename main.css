@@ -519,7 +519,6 @@ body {
   max-width: 60%;
   margin: 0 auto;
   padding: 20px;
-  background-color: #4F413E;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -608,7 +607,6 @@ textarea {
 .contact-info {
   text-align: center;
   padding: 110px 0;
-  background-color: #b3a09c;
   overflow: hidden;
 }
 .contact-info h2 {
