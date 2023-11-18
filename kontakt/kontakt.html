@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
-<html lang="sv" dir="ltr">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <title> Contact_Us </title>
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title> Royal Catering </title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="../main.css">
 
 
     <!--<link rel="stylesheet" href="main.css">-->
@@ -24,7 +24,7 @@
         <!-- Menu -->
         <nav>
             <a href="../index.html">
-                <img src="/assets/royalCateringLogo.PNG" alt="logo"> <!--  /assets/Royal Catering logo.PNG -->
+                <img src="../assets/royalCateringLogo.PNG" alt="logo"> <!--  /assets/Royal Catering logo.PNG -->
             </a>
             <label for="toggler" class="menu-toggle"><i class="fa fa-bars"></i></label>
             <input type="checkbox" id="toggler">
@@ -48,8 +48,8 @@
 
         <!-- banner section starts-->
         <section class="banner">
-            <!-- ../assets/kontakt_banner.jpeg -->
-            <img src="/assets/kontakt_banner.jpeg" class="ban_img" alt="wbwb" height="300" width="100%">
+         
+            <img src="../assets/kontakt_banner.jpeg" class="ban_img" alt="wbwb" height="300" width="100%">
             <h1 class="banner_text" style="font-size: 50px;"> Contact us </h1>
             <p class="banner_text1"> SEND US A MESSAGE </p>
 
@@ -66,17 +66,17 @@
 
                 <form action="#" method="POST">
 
-                    <label for="name"> Skriv ditt namn: </label>
-                    <input type="text" id="name" name="name" required>
+                  <!--  <label for="name"> Skriv ditt namn: </label>  --> 
+                    <input type="text" placeholder="name" id="name" name="name" required>
 
-                    <label for="email"> Skriv ditt e-post: </label>
-                    <input type="email" id="email" name="email" required>
+                   <!-- <label for="email"> Skriv ditt e-post: </label>   --> 
+                    <input type="email" placeholder="e-post" id="email" name="email" required>
 
-                    <label for="phone">Phone: </label>
-                    <input type="tel" id="phone" name="phone">
+                    <!-- <label for="phone">Phone: </label>   --> 
+                    <input type="tel" placeholder="phone number" id="phone" name="phone">
 
-                    <label for="message">Message: </label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                   <!-- <label for="message">Message: </label> -->
+                    <textarea id="message" placeholder="message" name="message" rows="4" required></textarea>
 
                     <button type="submit" class="submit-button">Submit</button>
 
